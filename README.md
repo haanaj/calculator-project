@@ -4,4 +4,6 @@ It's a very basic calculator but the tutorial is intended to teach you how to co
 
 I found this tutorial on this [website](https://www.makeuseof.com/tag/beginner-programming-projects/). This website has lots of great projects for coders who are just starting off.
 
+While the tutorial goes through how to build a basic calculator, it didn't have any CSS. I added my own CSS to my calculator to make it look a little more nicer!
+
 Thanks!
