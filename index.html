@@ -5,13 +5,44 @@
         <meta charset="utf-8">
         <meta name="description" content="This is an example of a calculator">
         <meta name=viewport content="width=device-width, initial-scale=1.0">
-        <title></title>
+        <title>Haana J's Calculator</title>
+
+        <!-- links -->
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
     </head>
     <body>
 
+        <h1> 5-Function Basic Calculator </h1>
+        <h3> Need a calculator to do some basic math? Don't worry. I got you covered.
+            I have the main basic functions like adding, subtracting, dividing, and multiplying. 
+            I've thrown in a bonus feature - doing something to the power of n! Enjoy.
+        </h2>
+
+        <div class="center">
         <form>
             Value 1: <input type = "text" id="value1">
             <br>
+            <!--
+            <div>
+                
+                <button type="button" onclick="calc()">0</button>
+                <button type="button" onclick="calc()">1</button>
+                <button type="button" onclick="calc()">2</button>
+                <br>
+                <button type="button" onclick="calc()">3</button>
+                <button type="button" onclick="calc()">4</button>
+                <button type="button" onclick="calc()">5</button>
+                <br>
+                <button type="button" onclick="calc()">6</button>
+                <button type="button" onclick="calc()">7</button>
+                <button type="button" onclick="calc()">8</button>
+                <br>
+                <button type="button" onclick="calc()">9</button>  
+                
+            </div>
+        -->
             Value 2: <input type = "text" id="value2">
             <br>
             Operator:
@@ -23,9 +54,12 @@
                 <option value="pow">Powers Of</option>  
             </select>
             <br>
-            <button type="button" onclick="calc()">Calculate</button>
+            <div class="button"><button type="button" onclick="calc()">Calculate</button></div>
         </form>
 
+        </div>
+
+        <div class="end">Result:</div>
         <div id="result"></div>
 
     </body>
